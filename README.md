@@ -16,13 +16,13 @@ With this module, users can define their own state struct, and the state manager
 To install the module, use the go get command:
 ```bash
 
-go get github.com/yourusername/state_manager
+go get github.com/alessandrobessi/statemanager
 ```
 Then, import it in your Go code:
 
 ```go
 
-import "github.com/yourusername/state_manager"
+import "github.com/alessandrobessi/statemanager"
 ```
 
 ## Quick Start
@@ -47,7 +47,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/state_manager"
+    "github.com/alessandrobessi/statemanager"
 )
 
 type MyState struct {
