@@ -1,9 +1,9 @@
 # statemanager
 **Lightweight, Flexible State Management for Go Applications!** 🚀
 
-statemanager is a Go module that provides easy file-based state management with support for user-defined state structures. It’s designed for applications that need to persist state across multiple invocations by writing the state to a file.
+This is a Go module that provides easy file-based state management with support for user-defined state structures. It’s designed for applications that need to persist state across multiple invocations by writing the state to a file.
 
-With this module, users can define their own state struct, and the state_manager will handle loading and saving the state to a file in JSON format.
+With this module, users can define their own state struct, and the state manager will handle loading and saving the state to a file in JSON format.
 
  ## Features
     - Generic state management: Define your own state structure using Go's generics.
