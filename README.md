@@ -8,7 +8,6 @@ With this module, users can define their own state struct, and the state manager
  ## Features
     - Generic state management: Define your own state structure using Go's generics.
     - File-based persistence: State is saved to and loaded from a file in JSON format.
-    - Automatic state loading and saving: Automatically load the state at startup and save it when the state is updated.
     - Lightweight: No external dependencies are required.
 
 ## Installation
